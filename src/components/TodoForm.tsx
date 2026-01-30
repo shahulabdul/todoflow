@@ -23,7 +23,7 @@ export const TodoForm: React.FC<TodoFormProps> = ({ onAddTodo }) => {
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Add a new todo..."
+          placeholder="Add a new habit..."
           className="w-full pl-6 pr-14 py-4 text-lg bg-white/80 backdrop-blur-sm border-2 border-gray-200 rounded-2xl 
                    focus:border-blue-400 focus:ring-4 focus:ring-blue-100 focus:outline-none transition-all duration-200
                    placeholder-gray-400 shadow-sm hover:shadow-md"

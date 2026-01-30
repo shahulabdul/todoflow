@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-TodoFlow is a frontend-only React todo list application with browser-based localStorage persistence. No backend server or database exists - all data is stored locally in the user's browser.
+HabitFlow is a frontend-only React habit tracking application with browser-based localStorage persistence. No backend server or database exists - all data is stored locally in the user's browser.
 
 ## Workflow Preferences
 
@@ -36,7 +36,7 @@ This is a **client-side only** application with the following data flow:
 User Interface → React Components → useTodos Hook → Browser localStorage
 ```
 
-There is no backend API, server, or database. All data persists in the browser's localStorage using the key `'todos-app-data'`.
+There is no backend API, server, or database. All data persists in the browser's localStorage using the key `'habits-app-data'`.
 
 ### State Management Pattern
 
