@@ -30,10 +30,10 @@ function App() {
               <CheckSquare className="text-white" size={32} />
             </div>
             <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              TodoFlow
+              HabitFlow
             </h1>
           </div>
-          <p className="text-gray-600 text-lg">Stay organized and productive</p>
+          <p className="text-gray-600 text-lg">Build better habits, one day at a time</p>
         </div>
 
         {/* Add Todo Form */}
@@ -70,12 +70,12 @@ function App() {
               <div className="p-4 bg-white/60 backdrop-blur-sm rounded-2xl inline-block shadow-sm border border-gray-100">
                 <CheckSquare className="mx-auto text-gray-400 mb-3" size={48} />
                 <p className="text-gray-500 text-lg font-medium">
-                  {filter === 'active' ? 'No active tasks' :
-                   filter === 'completed' ? 'No completed tasks' :
-                   'No todos yet'}
+                  {filter === 'active' ? 'No active habits' :
+                   filter === 'completed' ? 'No completed habits' :
+                   'No habits yet'}
                 </p>
                 <p className="text-gray-400 text-sm mt-1">
-                  {stats.total === 0 ? 'Add your first todo above!' : 'Try a different filter'}
+                  {stats.total === 0 ? 'Add your first habit above!' : 'Try a different filter'}
                 </p>
               </div>
             </div>

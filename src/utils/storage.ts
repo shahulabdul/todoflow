@@ -1,6 +1,6 @@
 import { Todo } from '../types';
 
-const STORAGE_KEY = 'todos-app-data';
+const STORAGE_KEY = 'habits-app-data';
 
 export const saveTodos = (todos: Todo[]) => {
   try {
